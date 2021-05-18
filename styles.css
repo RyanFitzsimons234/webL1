@@ -1,4 +1,3 @@
-
 /* imported fonts*/
 @font-face {
     font-family: char;
@@ -44,7 +43,6 @@ h1 {
 }
 
 /* nav styling */
-
 nav {
     background-color: black;
     text-align: left;
@@ -60,30 +58,8 @@ nav a {
     color: darkred;
     font-family: char;
 }
+
 /* logo */
-.catchphrase {
-    font-size: 250%;
-    grid-column: 2/4;
-    grid-row: 3/4;
-    font-family: charc;
-    text-align: center;
-}
-
-.img1 {
-    grid-column: 2/3;
-    grid-row: 4/4;
-    width: 70%;
-    margin: 20px;
-    justify-self: right;
-}
-
-.special {
-    grid-column: 3/3;
-    grid-row: 4/4;
-    font-size: 200%;
-    font-family: charc
-}
-
 .img2 {
     grid-row: 2/5;
     grid-column: 4/5;
@@ -92,29 +68,44 @@ nav a {
     justify-self: sstart;
 }
 
+/* hoodies */
+.img1 {
+    grid-column: 2/3;
+    grid-row: 4/4;
+    width: 70%;
+    margin: 20px;
+    justify-self: right;
+}
 
+/* text */
+.special {
+    grid-column: 3/3;
+    grid-row: 4/4;
+    font-size: 200%;
+    font-family: charc
+}
+
+.catchphrase {
+    font-size: 250%;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    font-family: charc;
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+    font-size: 150%;
+    font-family: charc;
+}
+
+/*   gallery    */
 section {
     width: 80%;
     margin: 20px auto;
     min-height: 300px;
     grid-column: 2/4;
     grid-row: 4/5;
-
-}
-
-section2 {
-    width: 80%;
-    background-color: white;
-    margin: 20px auto;
-    min-height: 300px;
-    grid-column: 2/4;
-    grid-row: 4/5;
-}
-
-.gallery {
-    grid-row: 4/5;
-    grid-column: 2/4;
-
 }
 
 ul {
@@ -125,29 +116,12 @@ ul {
 
 ul li img {
     width: 100%;
-
-
-
 }
 
-h2 {
-    background-color: green;
-    color: white;
-
-}
-
-p {
-    margin: 10px;
-    font-size: 150%;
-    font-family: charc;
-}
-
-h3 {
+/*   size calculator   */
+.calc {
     grid-column: 2/4;
-    grid-row: 4/5;
-    font-size: 200%;
-    text-align: left;
-    font-family: 'Oswald', sans-serif;
+    grid-row: 4/4;
 }
 
 h4 {
@@ -159,18 +133,12 @@ h4 {
     color: orangered;
 }
 
-.calc {
-    grid-column: 2/4;
-    grid-row: 3/4;
-}
-
 #answer {
     display: block;
     color: orangered;
     margin: 20px 0px;
     font-family: 'Oswald', sans-serif;
 }
-
 
 p3 {
     margin: 10px;
