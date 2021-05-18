@@ -1,0 +1,179 @@
+
+/* imported fonts*/
+@font-face {
+    font-family: char;
+    src: url(fonts/CHARRED.ttf);
+}
+
+@font-face {
+    font-family: charc;
+    src: url(fonts/CHARREDc.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-image: linear-gradient(black, red);
+    height: 100vh;
+}
+
+a:hover {
+    color: orangered;
+    background-color: black;
+}
+
+body {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .1fr 1fr 1fr 100px;
+    grid-template-rows: .1fr 120px 60px 2fr .1fr;
+
+}
+
+h1 {
+    background-color: orangered;
+    color: black;
+    font-size: 150%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* nav styling */
+
+nav {
+    background-color: black;
+    text-align: left;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    height: 120px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 500%;
+    color: darkred;
+    font-family: char;
+}
+/* logo */
+.catchphrase {
+    font-size: 250%;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    font-family: charc;
+    text-align: center;
+}
+
+.img1 {
+    grid-column: 2/3;
+    grid-row: 4/4;
+    width: 70%;
+    margin: 20px;
+    justify-self: right;
+}
+
+.special {
+    grid-column: 3/3;
+    grid-row: 4/4;
+    font-size: 200%;
+    font-family: charc
+}
+
+.img2 {
+    grid-row: 2/5;
+    grid-column: 4/5;
+    width: 100%;
+    background-color: black;
+    justify-self: sstart;
+}
+
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    min-height: 300px;
+    grid-column: 2/4;
+    grid-row: 4/5;
+
+}
+
+section2 {
+    width: 80%;
+    background-color: white;
+    margin: 20px auto;
+    min-height: 300px;
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.gallery {
+    grid-row: 4/5;
+    grid-column: 2/4;
+
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+ul li img {
+    width: 100%;
+
+
+
+}
+
+h2 {
+    background-color: green;
+    color: white;
+
+}
+
+p {
+    margin: 10px;
+    font-size: 150%;
+    font-family: charc;
+}
+
+h3 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    font-size: 200%;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    font-size: 200%;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    color: orangered;
+}
+
+.calc {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+#answer {
+    display: block;
+    color: orangered;
+    margin: 20px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+p3 {
+    margin: 10px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
